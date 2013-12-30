@@ -19,10 +19,6 @@
 using namespace std;
 using namespace boost;
 
-//
-// Global state
-//
-
 CCriticalSection cs_setpwalletRegistered;
 set<CWallet*> setpwalletRegistered;
 
